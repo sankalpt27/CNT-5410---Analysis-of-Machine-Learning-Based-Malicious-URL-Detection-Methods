@@ -6,8 +6,8 @@ Sankalp Talankar
 Rajan Patel
 Rahul Porwal
 
-#Objective
-The goal of this survey is to  analyse the performance of various machine learning and deep learning models for detection of malicious URLs. 
+# Objective
+Machine learning approaches have received more attention in recent years to improve the generality of malicious URL detectors. Most of the papers for these models use different datasets and metrics to evaluate their performance, making it difficult to compare the models. The purpose of this paper is to use a standardized dataset and metric to compare some of the latest machine learning algorithms for malicious URL detection. We are using the URL dataset provided by the University of New Brunswick consisting of around 610,000 URLs as a standard dataset to evaluate our models. Since it is much more damaging if a malicious URL is not detected as compared to a benign URL that is classified as malicious, it is more relevant to analyze how well the model can detect the malicious URLs. We decided to use AUPRC (Area under Precision- Recall curve) as the standard evaluation metric. Our analysis shows that deep learning models like URLNet perform better than traditional machine learning models because machine learning models use manually engineered features and they do not generalize well on data where such features are not present. So, while machine learning models are currently more popular, moving forward, deep learning models will be more prevalent.
 
 # Code Description
 A zip file of the dataset is present in the repository. 
